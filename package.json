@@ -1,5 +1,5 @@
 {
-  "name": "ics-mcp-server",
+  "name": "hdu-ics-mcp-server",
   "version": "1.0.0",
   "description": "MCP Server for ICS calendar subscriptions (courses & exams)",
   "main": "dist/index.js",
