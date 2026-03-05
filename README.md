@@ -1,6 +1,6 @@
 # ICS Calendar MCP Server
 
-将杭电助手 ICS 日历订阅接入 Claude，查询每日课程、考试和其他事项。
+将杭电助手 ICS 日历订阅接入 Claude等llm，查询每日课程、考试和其他事项。
 
 ## 快速开始
 
@@ -27,13 +27,13 @@ npm run build
       "command": "node",
       "args": ["/absolute/path/to/hdu-ics-mcp-server/dist/index.js"],
       "env": {
-        "ICS_URL": "https://api.hduhelp.com/calendar/schedule?staffId=你的学号"
+        "ICS_URL": "https://api.hduhelp.com/calendar/schedule?staffId=xxxxxxxxxx"
       }
     }
   }
 }
 ```
-
+xxxxxx为你杭电助手订阅链接中的部分
 也可以不写 `env`，改用项目根目录的 `.env` 文件配置 `ICS_URL`。
 
 ### Cherry Studio
@@ -43,7 +43,8 @@ npm run build
    - **名称**: `ics-calendar`
    - **命令**: `node`
    - **参数**: `/absolute/path/to/hdu-ics-mcp-server/dist/index.js`
-   - **环境变量**: 添加 `ICS_URL`，值为 `https://api.hduhelp.com/calendar/schedule?staffId=你的学号`
+   - **环境变量**: 添加 `ICS_URL`，值为 `https://api.hduhelp.com/calendar/schedule?staffId=xxxxxx`
+   - xxxxxx为你杭电助手订阅链接中的部分
 3. 保存后即可在对话中使用日历相关工具
 
 ## 可用工具
