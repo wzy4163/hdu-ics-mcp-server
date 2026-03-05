@@ -1,4 +1,4 @@
-# ICS Calendar MCP Server
+# HDU-ICS-MCP-Server
 
 将杭电助手 ICS 日历订阅接入 Claude等llm，查询每日课程、考试和其他事项。
 
