@@ -410,7 +410,7 @@ function formatErrorMessage(error: unknown): string {
 
 const server = new McpServer({
   name: "hdu-courses-and-exams",
-  version: "1.0.0",
+  version: "1.1.0",
 });
 
 server.tool(

@@ -1,6 +1,6 @@
 {
   "name": "hdu-ics-mcp-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP server for HDU campus ICS schedules, courses, and exams",
   "main": "dist/index.js",
   "scripts": {
