@@ -1,7 +1,7 @@
 {
   "name": "hdu-ics-mcp-server",
   "version": "1.0.0",
-  "description": "MCP Server for ICS calendar subscriptions (courses & exams)",
+  "description": "MCP server for HDU campus ICS schedules, courses, and exams",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
